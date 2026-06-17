@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add SM-3W Lite Meter",
+        "description": "Enter the MQTT topic this meter publishes to (the same one configured on the device) and a name to identify it. You can repeat this step to add more meters.",
+        "data": {
+          "topic": "MQTT Topic",
+          "name": "Meter name"
+        }
+      }
+    },
+    "error": {
+      "no_message": "No message was received on this topic within a few seconds. Check that the topic is correct and that the meter is on and publishing (you can test this under Settings > Devices & Services > MQTT > Listen to a topic)."
+    },
+    "abort": {
+      "already_configured": "This topic is already configured."
+    }
+  }
+}
