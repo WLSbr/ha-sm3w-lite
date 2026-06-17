@@ -1,0 +1,13 @@
+{
+  "domain": "sm3w_lite",
+  "name": "Medidor SM-3W Lite (IE Tecnologia, via MQTT)",
+  "codeowners": ["@WLSbr"],
+  "config_flow": true,
+  "dependencies": ["mqtt"],
+  "documentation": "https://github.com/WLSbr/ha-sm3w-lite",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/WLSbr/ha-sm3w-lite/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
