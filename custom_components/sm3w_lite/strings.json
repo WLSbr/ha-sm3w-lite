@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Adicionar Medidor SM-3W Lite",
+        "description": "Informe o tópico MQTT que esse medidor publica (o mesmo que você configurou no equipamento) e um nome para identificá-lo. Você pode repetir esse passo para adicionar outros medidores.",
+        "data": {
+          "topic": "Tópico MQTT",
+          "name": "Nome do medidor"
+        }
+      }
+    },
+    "error": {
+      "no_message": "Nenhuma mensagem foi recebida nesse tópico em alguns segundos. Verifique se o tópico está correto e se o medidor está ligado e publicando (você pode testar em Configurações > Dispositivos e Serviços > MQTT > Ouvir um tópico)."
+    },
+    "abort": {
+      "already_configured": "Esse tópico já está configurado."
+    }
+  }
+}
